@@ -1,4 +1,6 @@
 ## ESP32 + LCD1602 Bambu Lab 3D Printer Progress Meter
+<img src="img/printing.jpg" width="720">
+
 Micropython program for showing printing progress of Bambu Lab A1 mini 3D Printer on ESP32 + 1602 LCD over local MQTT connection.  
 Requires [umqtt.simple](https://github.com/micropython/micropython-lib/blob/master/micropython/umqtt.simple/umqtt/simple.py) (imported as umqtt**s**.simple) and [micropython-i2c-lcd](https://github.com/brainelectronics/micropython-i2c-lcd).
 ## Hardware
