@@ -8,7 +8,7 @@ Requires [umqtt.simple](https://github.com/micropython/micropython-lib/blob/mast
 ## Installation
 1. Download and extract this repository to a folder.
 2. Download [umqtt.simple](https://github.com/micropython/micropython-lib/blob/master/micropython/umqtt.simple/umqtt/simple.py) and [micropython-i2c-lcd](https://github.com/brainelectronics/micropython-i2c-lcd/releases).
-3. Put *simple.py* from umqtt.simple to *yourprojectfolder/lib/umqtts*, extract folder *lcd_i2c* to *lib*
+3. Put *simple.py* from umqtt.simple to *yourprojectfolder/lib/umqtts*, extract folder *lcd_i2c* to *lib*.
 4. Copy *config_template.py* as a new file *config.py*.
 5. Edit *config.py* as instructed in the file.
 6. Inject the content of the project folder into the ESP32.

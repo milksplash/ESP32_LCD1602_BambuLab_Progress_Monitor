@@ -9,11 +9,11 @@ client.set_callback(on_message)
 
 try:
     print('Connecting to printer...')
-    print1602(lcd, 'Connecting to printer...')
+    print1602_sentence(lcd, 'Connecting to printer...')
 
     client.connect()
     print('Connected')
-    print1602(lcd, 'Connected to printer!')
+    print1602_sentence(lcd, 'Connected to printer!')
 
     client.subscribe(TOPIC)
 
